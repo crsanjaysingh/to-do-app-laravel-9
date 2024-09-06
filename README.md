@@ -28,7 +28,9 @@ This is a simple To-Do application built using Laravel, Vue.js, and Inertia.js. 
    VITE_API_URL=http://127.0.0.1:8000 
    
    #### Mysql
-   DB_CONNECTION=mysql DB_HOST=127.0.0.1
+   DB_CONNECTION=mysql 
+   
+   DB_HOST=127.0.0.1
    
    DB_PORT=3306
    

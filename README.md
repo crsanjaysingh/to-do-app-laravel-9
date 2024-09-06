@@ -9,10 +9,13 @@
 
 ## Installation Follow these steps to install and set up the project locally: 
 ### 1. Clone the Repository First, clone this GitLab repository to your local machine:
+
  `bash git clone https://gitlab.com/your-username/todo-app.git cd todo-app ` 
  ### 2. Install Dependencies Make sure you have [Composer](https://getcomposer.org/) and [Node.js](https://nodejs.org/) installed. 
-     1. Install PHP dependencies: `bash composer install ` 
-     2. Install JavaScript dependencies: `bash npm install ` 
+     1. Install PHP dependencies: 
+     `bash composer install ` 
+     2. Install JavaScript dependencies: 
+     `bash npm install ` 
 ### 3. Environment Setup 
    1. Copy the `.env.example` file to `.env`: `bash cp .env.example .env ` 
    2. Generate the application key: `bash php artisan key:generate ` 

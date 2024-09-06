@@ -29,11 +29,14 @@ This is a simple To-Do application built using Laravel, Vue.js, and Inertia.js. 
    
    #### Mysql
    DB_CONNECTION=mysql DB_HOST=127.0.0.1
+   
    DB_PORT=3306
+   
    DB_DATABASE=your_database_name
+   
    DB_USERNAME=your_database_user
+   
    DB_PASSWORD=your_database_password
-   6. Run the database migrations: php artisan migrate
    
 ### 4. Build Assets You need to compile the front-end assets using the following command: 
 npm run build  
@@ -42,7 +45,7 @@ npm run dev
 
 ### 5. Running the Application 
 Start the development server using:  
-php artisan migrate --seed or php artisan migrate:fresh --seed for if tables exists
+Run the database migrations: php artisan migrate or php artisan migrate --seed to seed data or php artisan migrate:fresh --seed for if tables exists
 php artisan serve 
 By default, the app will be accessible at `http://localhost:8000`. Please use 8000 port or update the vite url if you use another port in.env  
 

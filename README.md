@@ -1,4 +1,6 @@
-# To-Do App This is a simple To-Do application built using Laravel, Vue.js, and Inertia.js. It allows users to create, manage, and mark tasks as completed. 
+# To-Do App 
+
+This is a simple To-Do application built using Laravel, Vue.js, and Inertia.js. It allows users to create, manage, and mark tasks as completed. 
 
 ## Table of Contents 
 - [Installation](#installation) 

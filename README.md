@@ -40,7 +40,9 @@ npm run dev
 
 ### 5. Running the Application 
 Start the development server using:  
-php artisan serve By default, the app will be accessible at `http://localhost:8000`. Please use 8000 port or update the vite url if you use another port in.env  
+php artisan migrate --seed or php artisan migrate:fresh --seed for if tables exists
+php artisan serve 
+By default, the app will be accessible at `http://localhost:8000`. Please use 8000 port or update the vite url if you use another port in.env  
 
 ## Features 
 - Create, update, and delete tasks
